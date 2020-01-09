@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ConfigurationUI</class>
+ <widget class="QDialog" name="ConfigurationUI">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>474</width>
+    <height>420</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Configuration</string>
+  </property>
+  <widget class="QCheckBox" name="startFirstChkBox">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>50</y>
+     <width>151</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Start first</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="sideGroupBox">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>160</y>
+     <width>171</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Play side</string>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <widget class="QRadioButton" name="bottomSideRadio">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Start from bottom</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="topSideRadio">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>70</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Start from top</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="okPBtn">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>380</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>OK</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cancelPBtn">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>380</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Cancel</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="colorGroupBox">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>160</y>
+     <width>211</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Your color</string>
+   </property>
+   <widget class="QRadioButton" name="blueColorRadio">
+    <property name="geometry">
+     <rect>
+      <x>31</x>
+      <y>20</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../build-Damka-Desktop_Qt_5_8_0_MinGW_32bit-Debug/sold_blue.png</normaloff>../build-Damka-Desktop_Qt_5_8_0_MinGW_32bit-Debug/sold_blue.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>120</width>
+      <height>50</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="redColorRadio">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>80</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../build-Damka-Desktop_Qt_5_8_0_MinGW_32bit-Debug/sold_red.png</normaloff>../build-Damka-Desktop_Qt_5_8_0_MinGW_32bit-Debug/sold_red.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>120</width>
+      <height>50</height>
+     </size>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>330</y>
+     <width>291</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Settings will be applied on start of new game</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="levelGroupBox">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>20</y>
+     <width>211</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Level</string>
+   </property>
+   <widget class="QRadioButton" name="beginnerRadio">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>20</y>
+      <width>82</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Beginner</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="mediumRadio">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>50</y>
+      <width>82</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Medium</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="masterRadio">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>80</y>
+      <width>82</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Master</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
